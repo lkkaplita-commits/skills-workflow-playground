@@ -6,4 +6,5 @@ namespace Discount.Domain;
 /// </summary>
 /// <param name="Subtotal">The price of the completed order before tax, shipping, or discounts.</param>
 /// <param name="CompletedAt">The date when the order was completed.</param>
-public sealed record PastOrder(decimal Subtotal, DateOnly CompletedAt);
+/// <param name="IsCancelledOrRefunded">Whether the order was cancelled or refunded and should be excluded from history.</param>
+public sealed record PastOrder(decimal Subtotal, DateOnly CompletedAt, bool IsCancelledOrRefunded = false);

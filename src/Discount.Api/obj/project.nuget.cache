@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "CheiLRvtW/8=",
+  "success": true,
+  "projectFilePath": "/Users/leszek/Projekty/github/skills-workflow-playground/skills-workflow-playground/src/Discount.Api/Discount.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/leszek/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "/Users/leszek/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Pakiet „Microsoft.OpenApi” 2.0.0 ma znane wysoka luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
+      "projectPath": "/Users/leszek/Projekty/github/skills-workflow-playground/skills-workflow-playground/src/Discount.Api/Discount.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/leszek/Projekty/github/skills-workflow-playground/skills-workflow-playground/src/Discount.Api/Discount.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

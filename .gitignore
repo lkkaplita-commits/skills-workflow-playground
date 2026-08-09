@@ -1,6 +1,7 @@
 # Build results
 **/[Bb]in/
 **/[Oo]bj/
+src/Discount.Api/obj/
 **/[Dd]ebug/
 **/[Rr]elease/
 **/[Aa]rtifacts/

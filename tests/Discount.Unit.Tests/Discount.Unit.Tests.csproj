@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Discount.Domain\Discount.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Discount.Services\Discount.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="NUnit.Framework" />
   </ItemGroup>
 
